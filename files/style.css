@@ -1,0 +1,21 @@
+#navbar {
+    background-color:rgba(0, 0, 0, 0.395);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#navbar img {
+    width: 50px;
+}
+
+#navbar nav ul {
+    display: flex; 
+    justify-content: space-between;
+    gap: 35px;
+
+
+}
+navbar button{
+    color: green;
+}
