@@ -1,18 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 #navbar {
     background-color:rgba(0, 0, 0, 0.778);
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
    
 }
 #navbar img {
     width: 50px;
+    border-radius: 50%;
 }
 
 #navbar nav ul {
     display: flex; 
-    justify-content: space-between;
+    /* justify-content: space-between;/ */
     gap: 35px;
     list-style: none;
    
@@ -21,23 +29,24 @@
 }
 
 #navbar button {
-    color: green;
-    font-size: 20px;
+    padding: 10px;
+    color: rgba(22, 130, 173, 0.836);
+    
 }
 #navbar nav ul li a {
   text-decoration: none;
     color: white;
 }
 /* table .html */
-#table{
+/* #table{
     background-color: rgba(0, 0, 0, 0.71);
    
 }
 #table tr  {
     color: white;
-}
+} */
 /* index .html */
-#index{
+/* #index{
     background-color: rgb(8, 52, 83);
     width: 100%;
 }
@@ -45,4 +54,4 @@
     
     text-decoration: none;
 
-}
+} */
