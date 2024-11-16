@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
     
    
 }
@@ -31,7 +32,6 @@
 }
 
 #navbar button {
-    padding: 10px;
     color: rgba(22, 130, 173, 0.836);
     
 }
@@ -39,18 +39,20 @@
   text-decoration: none;
     color: white;
 }
+
 /* home section starts from here  */
 #Home{
     width: 100%;
     height: 100vh;
     border: 3px solid rgb(0, 0, 0);
-    background-image: url(/img/logo.jpeg);
+    /* background-image: url(/img/logo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: steelblue;
 }
 /* table .html */
-/* #table{
+ #table{
     background-color: rgba(0, 0, 0, 0.71);
    
 }
@@ -58,7 +60,7 @@
     color: white;
 } */
 /* index .html */
-/* #index{
+ #index{
     background-color: rgb(8, 52, 83);
     width: 100%;
 }
@@ -66,4 +68,21 @@
     
     text-decoration: none;
 
-} */
+} 
+
+
+#maindiv div {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+ 
+}
+#maindiv{
+    padding: 10px;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 2fr 1fr 1fr ; */
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    gap: 20px;
+} 
