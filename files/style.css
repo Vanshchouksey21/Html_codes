@@ -86,3 +86,19 @@
     justify-content: center;
     gap: 20px;
 } 
+/* skill.html */
+.skill-head {
+    text-align: center;
+}
+.skill-head p{
+    color: #f9004d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.what{
+    display: flex;
+
+
+    /* text-align: right; */
+    padding-right: 5%;
+}
